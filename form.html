@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registration</title>
+        <link href="http://fonts.googleapes.com/css?family=raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="form.css" rel="stylesheet" type="text/css"> 
+
+    </head>
+    <body>
+        <form action="action.php" target="post" >
+            <div class="container">
+                <h2>Sign Up!</h2>
+                <p>Please fill this form to create an account</p>
+                <hr>
+
+                <label for="fname"><b>First Name:</b></label>
+                <input type="text" placeholder="First Name" name="fname" required>
+
+                <label for="Sname"><b>Surname:</b></label>
+                <input type="text" placeholder="Surname" name="Surname" required>
+
+                <label for="psw"><b>Password:</b></label>
+                <input type="password" placeholder="password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password:</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <label>
+                <input type="checkbox" checked= "checked" name="remember" style="margin-bottom: 15px" > Remember me          </label>
+                <p>By creating an account you agreed to our <a href="#">Terms and Privacy</a></p>
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="submitbtn">Sign Up</button>
+                </div>
+            
+            
+            
+            </div>
+
+
+
+        </form>
+
+    </body>
+</html>
